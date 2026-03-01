@@ -1,0 +1,37 @@
+:root {
+  --background: #ffffff;
+  --navbar-bg: #f4f4f4;
+  --sage-green: #8fbc8f;
+  --text-slate: #2f4f4f;
+  --border-color: #e5e5e5;
+  --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-slate);
+  background-color: var(--background);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+}
+
+#root {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
